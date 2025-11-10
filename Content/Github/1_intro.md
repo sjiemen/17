@@ -33,14 +33,13 @@ Je bent waarschijnlijk gewend om met een grafische interface (en je muis) te wer
 In de terminal werk je met commando's.
 Navigeren door de terminal doe je met `cd <folder>` (waarbij `<folder>` de folder is waar je naartoe wilt gaan). 
 
-Met `cd ..` ga je een folder omhoog.
-Met `ls` of `dir` zie je de inhoud van de folder waar je in zit.
-Met `mkdir <folder>` maak je een nieuwe folder aan (waarbij `<folder>` de naam is van de nieuwe folder).
-Met `rmdir <folder>` verwijder je een lege folder (waarbij `<folder>` de naam is van de folder die je wilt verwijderen). 
-
-Met `rm <file>` verwijder je een bestand (waarbij `<file>` de naam is van het bestand dat je wilt verwijderen). 
-
-Met `code .` open je de huidige folder in VSC.
+- Met `cd ..` ga je een folder omhoog.
+- Met `ls` of `dir` zie je de inhoud van de folder waar je in zit.
+- Wil je naar een andere drive, dan typ je de drive letter gevolgd door een dubbele punt (bijv. `D:`).
+- Met `mkdir <folder>` maak je een nieuwe folder aan (waarbij `<folder>` de naam is van de nieuwe folder).
+- Met `rmdir <folder>` verwijder je een lege folder (waarbij `<folder>` de naam is van de folder die je wilt verwijderen). 
+- Met `rm <file>` verwijder je een bestand (waarbij `<file>` de naam is van het bestand dat je wilt verwijderen). 
+- Met `code .` open je de huidige folder in VSC.
 
 ```{warning}
 Het gebruik van spaties in mapnamen is toegestaan op Linux en macOS, maar wanneer je die mappen in de terminal aanspreekt, moeten spaties voorafgegaan worden door een escape-teken (bijv. backslash: cd Documents/My\ Folder).
@@ -48,7 +47,6 @@ Het gebruik van spaties in mapnamen is toegestaan op Linux en macOS, maar wannee
 ````
 
 4. Navigeer in de terminal naar de locatie waar je je repository wilt opslaan (bijvoorbeeld `cd Documents/studie/jaar 1/IP2/`). Maak een nieuwe folder aan met `mkdir Project` en ga naar deze folder met `cd Project`.
-
 
 5. Typ in de terminal `git clone <url>` (waarbij `<url>` de url is die je gekopieerd hebt (waarschijnlijk `https://github.com/Contemporary-Physicslab/thermolab.git`)) en druk op enter.
 
